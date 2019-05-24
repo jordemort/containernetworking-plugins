@@ -6,8 +6,6 @@ export DH_VERBOSE=1
 export DH_GOPKG := github.com/containernetworking/plugins
 #export DH_GOLANG_INSTALL_EXTRA := libcontainer/seccomp/fixtures
 BUILDDIR := $(shell pwd)
-export GO := /usr/lib/go-1.12/bin/go
-export PATH := /usr/lib/go-1.12/bin:$(PATH)
 
 %:
 	dh $@ --buildsystem=golang --with=golang --builddirectory=$(BUILDDIR)

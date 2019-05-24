@@ -27,9 +27,9 @@ for d in $PLUGINS; do
 		# use go install so we don't duplicate work
 		if [ -n "$FASTBUILD" ]
 		then
-			GOBIN=${PWD}/bin /usr/lib/go-1.12/bin/go install -pkgdir $GOPATH/pkg "$@" $REPO_PATH/$d
+			GOBIN=${PWD}/bin go install -pkgdir $GOPATH/pkg "$@" $REPO_PATH/$d
 		else
-			/usr/lib/go-1.12/bin/go build -o "${PWD}/bin/$plugin" -pkgdir "$GOPATH/pkg" "$@" "$REPO_PATH/$d"
+			go build -o "${PWD}/bin/$plugin" -pkgdir "$GOPATH/pkg" "$@" "$REPO_PATH/$d"
 		fi
 	fi
 done
