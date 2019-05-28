@@ -22,7 +22,7 @@ override_dh_auto_configure:
 	rsync -a $(BUILDDIR)/* $(BUILDDIR)/src/$(DH_GOPKG) --exclude src
 
 override_dh_auto_build:
-	GOPATH=$(BUILDDIR) ./build.sh
+	GOPATH=$(BUILDDIR) ./build_linux.sh
 
 override_dh_auto_install:
 	install -dp $(BUILDDIR)/debian/containernetworking-plugins/opt/cni/bin
