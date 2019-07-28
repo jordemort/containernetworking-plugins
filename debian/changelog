@@ -1,3 +1,9 @@
+containernetworking-plugins (0.8.1-1~ubuntu19.04~ppa2) disco; urgency=medium
+
+  * build correctly for disco
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 28 Jul 2019 14:47:52 +0000
+
 containernetworking-plugins (0.8.1-1~ubuntu18.04~ppa1) bionic; urgency=medium
 
   * bump to 0.8.1
