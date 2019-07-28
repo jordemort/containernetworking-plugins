@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9),
     rsync,
     golang,
     dh-golang
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 Homepage: https://github.com/containernetworking/plugins
 Vcs-Git: https://github.com/lsm5/plugins
 Vcs-Browser: https://github.com/lsm5/plugins
