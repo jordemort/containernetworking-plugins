@@ -1,3 +1,9 @@
+containernetworking-plugins (0.8.2-1~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * bump to v0.8.2
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 19 Aug 2019 17:32:55 +0000
+
 containernetworking-plugins (0.8.1-1~ubuntu19.04~ppa3) disco; urgency=medium
 
   * update standards-version, rebuild 

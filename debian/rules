@@ -6,7 +6,7 @@ export DH_VERBOSE=1
 export DH_GOPKG := github.com/containernetworking/plugins
 #export DH_GOLANG_INSTALL_EXTRA := libcontainer/seccomp/fixtures
 BUILDDIR := $(shell pwd)
-UPSTREAM_TAG=v0.8.1
+UPSTREAM_TAG=v0.8.2
 
 %:
 	dh $@ --buildsystem=golang --with=golang --builddirectory=$(BUILDDIR)
